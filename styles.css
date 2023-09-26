@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el contenedor principal (post-header) */
+.post-header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    margin-left: 10px;
+}
+
+/* Estilos para los contenedores de icono, texto y ellipsis */
+.icon-container,
+.text-container,
+.ellipsis-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* Aumenta el tamaño de los iconos */
+.fa-html5,
+.fa-ellipsis-v {
+    font-size: 30px; /* Cambia el tamaño según tus preferencias */
+}
+
+/* Establece el margen entre los contenedores */
+.text-container,
+.ellipsis-container {
+    margin-left: 5px; /* Espacio de 5px entre los contenedores */
+}
+
+/* Ajusta el margen derecho del primer div (icon-container) */
+.icon-container {
+    flex: 0; /* Ajusta el ancho para que se ajuste al contenido */
+    margin-right: 5px; /* Espacio de 5px a la derecha del primer div */
+}
+
+/* Establece el margen izquierdo de auto para el div de puntos suspensivos */
+.ellipsis-container {
+    justify-content: flex-end;
+}
+
+.text-container {
+    margin: 0; /* Elimina el margen superior e inferior del párrafo p */
+    max-width: 5px; /* Limita el ancho del párrafo al 100% del contenedor */
+}
+
+
+
+
+
+
+
+
