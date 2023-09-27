@@ -119,6 +119,11 @@ body {
     margin-bottom: 10px;
 }
 
+/* Estilo específico para el último icon*/
+.post.icons:nth-last-child(){
+    float: right;
+}
+
 
 
 
